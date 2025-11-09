@@ -65,3 +65,9 @@ Common heuristics:
 Subtract equivalents for opponent.
 
 Depth search is typically limited (e.g., 6–8 moves ahead), since exploring the full game tree is impractical.
+
+Try out this game here:
+
+https://nitbdheeraj.github.io/ConnectFour/
+
+
