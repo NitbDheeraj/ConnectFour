@@ -157,8 +157,6 @@ Board.prototype.score = function() {
         } 
     }
 
-
-
     // Diagonal points 1 (left-bottom)
     //
     // Possible situation
@@ -195,7 +193,6 @@ Board.prototype.score = function() {
             if (score == -this.game.score) return -this.game.score;
             diagonal_points2 += score;
         }
-
     }
 
     points = horizontal_points + vertical_points + diagonal_points1 + diagonal_points2;
